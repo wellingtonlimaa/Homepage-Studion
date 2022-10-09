@@ -39,17 +39,22 @@
   margin: 0;
   font-size: 0.9375rem;
   line-height: 1.875rem;
-  max-width: 74 ch;
+  max-width: 74ch;
   color: var(--color-copy--alt);
 }
+
+
 
 
 
 .section__copy {
   display: grid;
   justify-items: center;
-  padding: 4.8125rem 0;
   background-color: var(--color-primary);
+}
+
+.section__copy img {
+  padding-top: 3rem;
 }
 
 .section__copy h1 {
@@ -59,10 +64,30 @@
   font-size: 3.125rem;
 }
 
+.section__ceo {
+  font-weight: 500;
+  color: #000;
+  
+  margin-top: -50px;
+  margin-left: 290px;
+}
+
+.section__aspas {
+  font-family: "montserrat";
+  font-size: 6.125rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: -20px;
+
+}
+
 .section__copy p {
+  font-size: 0.9375rem;
   max-width: 81ch;
+  line-height: 1.875rem;
   text-align: center;
   font-weight: 400;
   color: #000;
+  padding-bottom: 4rem;
 }
 

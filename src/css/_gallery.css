@@ -16,7 +16,33 @@
   bottom: 0;
   right: 0;
   width: 50vw;
-  padding: 7rem 1.875rem;
+  padding: 5rem 1.875rem;
 }
 
+.gallery__copy h5 {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.gallery__copy h2 {
+  color: var(--color-primary);
+
+  margin: 0;
+  font-size: 7.5rem;
+  font-weight: bold;
+}
+
+.gallery__copy p {
+  color: #ccc;
+  max-width: 74ch;
+  
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
 
