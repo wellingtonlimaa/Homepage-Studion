@@ -22,7 +22,8 @@
 }
 
 .btn--institutional:hover,
-.btn--contact:hover {
+.btn--contact:hover,
+.btn--events:hover {
   color: var(--color-copy);
   background: unset;
   box-shadow: 0 1rem 1rem #0006; /* x, y, blur, cor */
