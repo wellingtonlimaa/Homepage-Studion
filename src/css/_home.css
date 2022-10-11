@@ -106,7 +106,7 @@
 }
 
 .quote {
-  background-image: url(/imagens/parallax.jpg);
+  background-image: url(../imagens/parallax.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
