@@ -40,8 +40,54 @@
 
 /* MAIN SECTION*/
 
-.enterprise-section {
-    display: grid;
-    grid-template-columns: auto auto;
+.enterprise__container { 
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 4rem;
 }
+
+.enterprise_copy {
+  color: #000;
+
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.enterprise_copy h2 {
+  font-weight: 800;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+}
+
+
+.img_man {
+  width: 600px;
+  height: 424px;
+}
+
+.section {
+  padding: 4.375rem 0 2rem 0;
+  background-color: var(--color-primary);
+}
+
+.patrocinio-container {
+  background-color: var(--color-primary);
+}
+
+/* Section */
+
+.logo-patrocinio h2 {
+  padding-bottom: 2.75rem;
+
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5625rem;
+  
+
+  color: #000;
+}
+
+
+
 
