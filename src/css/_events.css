@@ -49,7 +49,7 @@
 .container_eventos {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
 }
 
 /* Texto */
@@ -95,7 +95,24 @@
 }
 
 
-/* Container do evento 3 */
+/* Container Layer-2 */
 
+.layer_2 {
+  
+}
+
+/* Eventos GPS */
+
+.eventos-gps {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.button_gps {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
 
