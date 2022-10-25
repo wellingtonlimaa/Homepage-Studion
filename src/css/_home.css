@@ -3,13 +3,30 @@
   color: #fff;
 }
 
+.slider__prev,
+.slider__next {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 5px solid #fff;
+  border-right: unset;
+  border-bottom: unset;
+  opacity: 0.9;
+}
+
 .slider__prev {
-  left: 0;
   z-index: 1;
+  left: 1rem;
+  transform: rotate(-45deg);
 }
 
 .slider__next {
-  right: 0;
+  right: 1rem;
+  transform: rotate(135deg);
+}
+
+.slider__prev::before,
+.slider__next::before {
+  content: '';
 }
 
 .slide {
