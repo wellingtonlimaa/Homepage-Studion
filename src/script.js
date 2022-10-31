@@ -4,8 +4,8 @@ $(document).ready(function(){
     const slickOptions = {
         autoplay: true,
         dots: false,
-        prevArrow: '<button type="button" class="slick-prev slider__prev" >Previous</button>;',
-        nextArrow: ' <button type="button" class="slick-next slider__next" >Previous</button>;',
+        prevArrow: '<button type="button" class="slick-prev slider__prev slick-arrow" >Previous</button>;',
+        nextArrow: ' <button type="button" class="slick-next slider__next slick-arrow" >Previous</button>;',
     };  
 
     $('.slider').slick(slickOptions);
