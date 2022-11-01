@@ -21,6 +21,19 @@
   color: #fff;
 }
 
+.btn--institutional {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .btn--institutional {
+      display: unset;
+      margin: unset;
+    }
+}
+
+
 .btn--institutional:hover,
 .btn--contact:hover,
 .btn--events:hover {
@@ -38,5 +51,4 @@
   border-color: var(--color-copy);
   background: unset;
 }
-
 

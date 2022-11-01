@@ -148,13 +148,21 @@
   }
 }
 
+/* Mobile*/
 .institutional__image {
-  max-width: 550px;
+  max-width: 100vw;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .institutional__image {
+    max-width: 550px;
+  }
 }
 
 /* Mobile */
 .institutional__copy {
-  padding: 0 0 1.875rem 0; 
+  padding: 0 1rem 1.875rem 1rem; 
 }
 
 /*Desktop*/
