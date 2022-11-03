@@ -30,12 +30,12 @@
 }
 
 .slick-arrow {
-  display: none;
+  visibility: hidden;
 }
 
 @media screen and (min-width: 1280px) {
   .slick-arrow {
-    display: block;
+    visibility: visible;
   }
 }
 
@@ -193,28 +193,55 @@
   margin-bottom: 2.5rem;
 }
 
+/* Mobile */
 .quote {
   background-image: url(../imagens/parallax.jpg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: auto 40%;
+  background-position: 40% top;
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .quote {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Mobile */
 .quote__container {
   display: grid;
-  align-items: center;
+  align-items: end;
   justify-items: end;
   min-height: 80vh;
 }
 
-.quote__copy {
-  background-color: #fff;
-  padding: 5.625rem 4.375rem;
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .quote__container {
+    align-items: center;
+  }
 }
 
+/* Mobile */
+.quote__copy {
+  background-color: #fff;
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .quote__copy {
+    padding: 5.625rem 4.375rem;
+  }
+}
+
+/* Mobile */
 .quote__copy h6 {
-  font-size: 0.9375rem;
+  font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 0.1875rem;
   line-height: 1.4375rem;
@@ -224,8 +251,8 @@
 }
 
 .quote__copy h2 {
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 4rem;
+  line-height: 4rem;
   text-transform: uppercase;
   letter-spacing: -0.1875rem;
   margin: 1.875rem 0;
@@ -234,3 +261,16 @@
 .quote__copy h2 span {
   display: block;
 }
+
+/* Desktop */
+@media screen and (min-width: 1280px ) {
+  .quote__copy h6 {
+    font-size: 0.9375rem;
+  }
+
+  .quote__copy h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+

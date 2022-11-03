@@ -21,15 +21,18 @@
   color: #fff;
 }
 
-.btn--institutional {
+/* Mobile*/
+.btn--institutional,
+.btn--quote {
   display: block;
   margin: 0 auto;
 }
 
+/* Desktop*/
 @media screen and (min-width: 1280px) {
-    .btn--institutional {
-      display: unset;
-      margin: unset;
+    .btn--institutional,
+    .btn--quote {
+      display: inline;
     }
 }
 
