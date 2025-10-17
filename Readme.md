@@ -1,28 +1,43 @@
-## Projeto de estudo.
+# 🏠 Homepage-Studion
 
-Neste projeto foi desenvolvido o estudo de HTML CSS básicos.
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-![calculadora](./src/imagens/Screenshot_1.png)
+**Homepage-Studion** é um projeto de estudo focado no desenvolvimento de uma página inicial utilizando **HTML5**, **CSS3** e **JavaScript**. O objetivo principal é praticar e aprimorar habilidades em construção de layouts responsivos e organização de código front-end.
 
-### Teste em seu Computador!
+---
 
-Como requisito neste projeto, deve haver instalado na maquina em questão os seguinte:
+## 📖 Sobre o projeto
 
--   [Git](https://git-scm.com/downloads)
+Este projeto consiste em uma página inicial simples, desenvolvida como parte de um estudo prático. A página inclui:
 
-e uma IDE, como estou usando o VSCode deixo também um link para download:
+- Estrutura semântica com HTML5
+- Estilização responsiva utilizando CSS3
+- Interatividade básica com JavaScript
+- Organização modular de arquivos
 
--   [VsCode](https://code.visualstudio.com/)
+---
 
-Feito e instalação das ferramentas utilizadas nesse projeto, siga os passo abaixo para testar o projeto em questão:
+## 🚀 Demonstração
 
-1. Abra a IDE escolhida, no meu caso o VsCode
-2. Abra um terminal na pasta do projeto, no caso do VsCode localizado na barra de tarefas, descrito como `Terminal`, `new Terminal` OU digite `CTRL + ALTgr + j`
-3. [Clone](https://docs.github.com/pt/github/creating-cloning-and-archiving-repositories/cloning-a-repository#:~:text=10%2C%20done.-,Clonar%20um%20reposit%C3%B3rio%20no%20GitHub%20Desktop,Desktop%20para%20concluir%20o%20clone.) o projeto em questão.
-4. Digite `cd homepage-studion`
+🔗 **Acesse o projeto online:** [Clique aqui para visualizar]()  
 
-Se tudo correr bem abra o arquivo `index.html`
 
-Logo verá nossa aplicação rodando! Caso tenha alguma opinião em relação a melhora do processo ou implementação de algo (que com certeza haverá rsrs), deixe sua sugestão sem medo, será muito bem-vinda. Afinal sou somente um aprendiz e quero progredir com quem sabe.
+---
 
-#### Obrigado!
+
+## 🧩 Tecnologias utilizadas
+
+- **HTML5**: Estrutura semântica da página
+- **CSS3**: Estilização e layout responsivo
+- **JavaScript**: Interatividade e manipulação de elementos
+- **Git & GitHub**: Controle de versão e hospedagem do código
+
+---
+
+## 📂 Estrutura do projeto
+
+![alt text](./src/imagens/image.png)
